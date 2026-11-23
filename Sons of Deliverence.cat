@@ -950,12 +950,12 @@
               <modifiers>
                 <modifier field="ee91-e60a-86ea-2345" type="increment" value="1">
                   <conditions>
-                    <condition id="2668-9341-d296-f108" childId="6588-04e7-6624-5b61" childName="Mor Deythan" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="6"/>
+                    <condition id="2668-9341-d296-f108" childId="6588-04e7-6624-5b61" childName="Mor Deythan" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="5"/>
                   </conditions>
                 </modifier>
                 <modifier field="ee91-e60a-86ea-2345" type="increment" value="1">
                   <conditions>
-                    <condition id="601c-8468-14b4-ecbc" childId="6588-04e7-6624-5b61" childName="Mor Deythan" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="9"/>
+                    <condition id="601c-8468-14b4-ecbc" childId="6588-04e7-6624-5b61" childName="Mor Deythan" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="8"/>
                   </conditions>
                 </modifier>
               </modifiers>
