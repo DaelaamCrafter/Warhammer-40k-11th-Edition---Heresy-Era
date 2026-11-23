@@ -1,0 +1,1398 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue name="Sons of the Veil (Raven Guard Successor)" id="c3a3-8153-9841-75d2" battleScribeVersion="2.03" gameSystemId="sys-4f0d-091f-38a1-aa8b" gameSystemRevision="1" library="false" revision="1" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <catalogueLinks>
+    <catalogueLink name="Heresy Era Astartes" id="6d3a-3e55-3167-f926" importRootEntries="true" targetId="fb58-eaa6-dd21-df85" type="catalogue"/>
+  </catalogueLinks>
+  <entryLinks>
+    <entryLink name="Corvus Corax" id="95c0-0bd0-4ab2-a79e" hidden="false" import="true" targetId="3a7f-68ca-5935-73e5" type="selectionEntry"/>
+    <entryLink name="Shadow Warden" id="3a65-63ad-b44a-3615" hidden="false" import="true" targetId="d2a4-e270-139b-3701" type="selectionEntry"/>
+    <entryLink name="Dark Furies" id="4a93-0a9d-17ef-e729" hidden="false" import="true" targetId="f1a1-94f3-4cab-21da" type="selectionEntry"/>
+    <entryLink name="Deliverers" id="c86e-e78b-33bc-fab4" hidden="false" import="true" targetId="9c9e-4079-1365-49cc" type="selectionEntry"/>
+    <entryLink name="Whispercutter" id="fabe-4deb-eae5-42a0" hidden="false" import="true" targetId="fdce-fbf7-f6c4-32de" type="selectionEntry"/>
+    <entryLink name="Mor Deythan" id="b472-448e-781f-fa0a" hidden="false" import="true" targetId="1417-fa70-17dd-b1fe" type="selectionEntry"/>
+    <entryLink name="Shadow Killers" id="af67-9fdf-2573-bbe0" hidden="false" import="true" targetId="e0c2-0a21-2719-f44b" type="selectionEntry"/>
+    <entryLink name="Darkwing Gunship" id="14e9-4f30-70b6-b129" hidden="false" import="true" targetId="9f23-f12b-d564-da0a" type="selectionEntry"/>
+    <entryLink name="Shadowhawk Gunship" id="4996-2eab-85ba-3d7d" hidden="false" import="true" targetId="3d47-502d-0a39-5da4" type="selectionEntry"/>
+  </entryLinks>
+  <sharedProfiles>
+    <profile name="Guided Slaughter" id="0c62-ff4d-1125-850b" hidden="false" typeId="b139-9a8a-94a3-bdc7" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="6468-b66d-4509-c7d6">• While a Shadow Killer unit is within 6” of this model, it gains adds 2 to Charge rolls and may reroll charge rolls.
+
+
+• While a Shadow Killer unit is within 6” of this model, melee weapons equipped by models in that unit gain Lance</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Leader" id="8a29-469c-1619-2658" hidden="false" typeId="b139-9a8a-94a3-bdc7" typeName="Abilities">
+      <comment>Shadow Warden</comment>
+      <characteristics>
+        <characteristic name="Description" typeId="6468-b66d-4509-c7d6">This model can be attached to the following units:
+• Shadow Killers</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Death on Black Wings" id="34b7-3c9a-8cf7-0d03" hidden="false" typeId="b139-9a8a-94a3-bdc7" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="6468-b66d-4509-c7d6">When a model in this unit makes a melee attack targeting your Priority Target, those attacks gain Precision and may re-roll Wound rolls of 1.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Slaughter the Weak" id="e5f7-5598-a7c2-0052" hidden="false" typeId="b139-9a8a-94a3-bdc7" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="6468-b66d-4509-c7d6">Each time a model in this unit makes a melee attack, if this unit made a Charge move this turn, weapons equipped by models in this unit gain Cleave 1. If a weapon equipped by a model in this unit already has Cleave (X). Improve the X Characteristic of the Cleave by 1.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Target Sighted" id="a421-783b-c627-1fd0" hidden="false" typeId="b139-9a8a-94a3-bdc7" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="6468-b66d-4509-c7d6">Each time this unit Remains Stationary, until the start of your next Movement phase, ranged attacks made by this unit against your Priority Target have the Devastating Wounds keyword.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Fatal Strike" id="f9c1-e290-7cd7-1242" hidden="false" typeId="b139-9a8a-94a3-bdc7" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="6468-b66d-4509-c7d6">Once per game, weapons equipped by models in this unit score Critical Hits and Critical Wounds on a 5+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Sable Brand" id="f22d-fcfb-61bf-df45" hidden="false" typeId="b139-9a8a-94a3-bdc7" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="6468-b66d-4509-c7d6">Each time a model in this unit makes a melee attack, you can re‑roll the Hit roll This unit cannot be selected to Fall Back and models in this unit have a Maximum OC of 0. This unit can never contest or claim an objective.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Stealth Field" id="1055-33ed-9cec-f4b3" hidden="false" typeId="b139-9a8a-94a3-bdc7" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="6468-b66d-4509-c7d6">This model has a 4+ Invulnerable Save and cannot be targeted by Snap Shooting.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Whispercutter" id="ee71-dd6f-5be8-da4f" hidden="false" typeId="1489-fff5-b9e1-c4a3" typeName="Unit">
+      <characteristics>
+        <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">14&quot;</characteristic>
+        <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">6</characteristic>
+        <characteristic name="Sv" typeId="450-a17e-9d5e-29da">4+</characteristic>
+        <characteristic name="W" typeId="750a-a2ec-90d3-21fe">6</characteristic>
+        <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+        <characteristic name="WP" typeId="506f-ea74-60a7-70d5">-</characteristic>
+        <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
+        <characteristic name="InSv" typeId="a428-7a31-d4d7-43fb">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Rapid Flight" id="2065-6b8d-9af2-d0ea" hidden="false" typeId="b139-9a8a-94a3-bdc7" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="6468-b66d-4509-c7d6">When this model makes a shooting attack, it suffers a -1 to its Hit Rolls. When this model makes a Hazardous test, it must roll a number of dice equal to its remaining wounds.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Prow Ram" id="e29e-0e00-f9b6-b801" hidden="false" typeId="3287-3735-752a-4304" typeName="Melee Weapons">
+      <characteristics>
+        <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+        <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
+        <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
+        <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
+        <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
+        <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+        <characteristic name="Keywords" typeId="f19c-7a62-0447-78d0">Hazardous, Lance</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="The Corvidine Talons" id="f866-aa3a-dbd9-2c60" hidden="false" typeId="3287-3735-752a-4304" typeName="Melee Weapons">
+      <characteristics>
+        <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+        <characteristic name="A" typeId="2337-daa1-6682-b110">10</characteristic>
+        <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
+        <characteristic name="S" typeId="ab33-d393-96ce-ccba">7</characteristic>
+        <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
+        <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
+        <characteristic name="Keywords" typeId="f19c-7a62-0447-78d0">Cleave 3, Devastating Wounds, Precision, Twin-Linked</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Talonis" id="fdb4-bc07-a4d4-5bbd" hidden="false" typeId="3287-3735-752a-4304" typeName="Melee Weapons">
+      <characteristics>
+        <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+        <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
+        <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
+        <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
+        <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
+        <characteristic name="D" typeId="3254-9fe6-d824-513e">3</characteristic>
+        <characteristic name="Keywords" typeId="f19c-7a62-0447-78d0">Lethal Hits, Extra Attacks, Precision</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Wrath" id="c363-3f50-8556-2a95" hidden="false" typeId="2ff9-37cc-0c8a-1572" typeName="Ranged Weapons">
+      <characteristics>
+        <characteristic name="Range" typeId="c8ea-38db-c0c8-4da1">12&quot;</characteristic>
+        <characteristic name="A" typeId="6dfb-9f47-24fd-83bd">4</characteristic>
+        <characteristic name="BS" typeId="0583-6d2b-9bfd-8dd1">2+</characteristic>
+        <characteristic name="S" typeId="ce88-5065-4411-a07a">6</characteristic>
+        <characteristic name="AP" typeId="1f4b-4921-cf9d-d34c">-1</characteristic>
+        <characteristic name="D" typeId="738c-123b-f9bb-5f4e">2</characteristic>
+        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Anti-Infantry 4+, Close-Quarters, Devastating Wounds</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Justice" id="43ba-b8b6-988c-9383" hidden="false" typeId="2ff9-37cc-0c8a-1572" typeName="Ranged Weapons">
+      <characteristics>
+        <characteristic name="Range" typeId="c8ea-38db-c0c8-4da1">12&quot;</characteristic>
+        <characteristic name="A" typeId="6dfb-9f47-24fd-83bd">2</characteristic>
+        <characteristic name="BS" typeId="0583-6d2b-9bfd-8dd1">2+</characteristic>
+        <characteristic name="S" typeId="ce88-5065-4411-a07a">6</characteristic>
+        <characteristic name="AP" typeId="1f4b-4921-cf9d-d34c">-1</characteristic>
+        <characteristic name="D" typeId="738c-123b-f9bb-5f4e">3</characteristic>
+        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Anti-Monster/Vehicle 4+, Close-Quarters, Devastating Wounds</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Corvus Corax" id="e1b8-1012-a168-24ad" hidden="false" typeId="1489-fff5-b9e1-c4a3" typeName="Unit">
+      <characteristics>
+        <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">16&quot;</characteristic>
+        <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">9</characteristic>
+        <characteristic name="Sv" typeId="450-a17e-9d5e-29da">2+</characteristic>
+        <characteristic name="W" typeId="750a-a2ec-90d3-21fe">12</characteristic>
+        <characteristic name="LD" typeId="58d2-b879-49c7-43bc">5+</characteristic>
+        <characteristic name="WP" typeId="506f-ea74-60a7-70d5">-</characteristic>
+        <characteristic name="OC" typeId="bef7-942a-1a23-59f8">4</characteristic>
+        <characteristic name="InSv" typeId="a428-7a31-d4d7-43fb">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="The Sable Armor" id="7dda-813c-eaa1-83df" hidden="false" typeId="a8b2-cae8-0cb2-0c83" typeName="Equipment">
+      <characteristics>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">8” Movement, 2+ Save, 4+ Invulnerable Save, Lone Operative, Stealth</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="The Korvidine Pinions" id="1fa7-be88-9d24-2503" hidden="false" typeId="a8b2-cae8-0cb2-0c83" typeName="Equipment">
+      <characteristics>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">+8” Movement, Jump Pack, Deep Strike, Hover, Bulky (6)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="From the Shadows" id="0064-5938-d11c-fe32" hidden="false" typeId="b139-9a8a-94a3-bdc7" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="6468-b66d-4509-c7d6">At the end of your opponent’s turn, if this model is not leading a unit and is not within Engagement Range of one or more enemy units, you can remove this model from the battlefield and place it into Strategic Reserves.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Carve the Head from the Hydra" id="525a-122c-a35f-791d" hidden="false" typeId="b139-9a8a-94a3-bdc7" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="6468-b66d-4509-c7d6">When this model makes a melee attack against your Priority Target, that attack gains Anti-Character 3+</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <sharedSelectionEntries>
+    <selectionEntry name="Prow Ram" id="8f19-e1e0-f3cf-32ba" hidden="false" import="true" type="upgrade">
+      <constraints>
+        <constraint id="7540-5c57-e5ff-4953-min" field="selections" scope="parent" shared="true" type="min" value="1"/>
+        <constraint id="7540-5c57-e5ff-4953-max" field="selections" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Prow Ram" id="4d93-6791-101c-2406" hidden="false" targetId="e29e-0e00-f9b6-b801" type="profile"/>
+        <infoLink name="Hazardous" id="ad48-7ff7-be3c-2a6f" hidden="false" targetId="8367-374c-f87-c627" type="rule"/>
+        <infoLink name="Lance" id="2ffa-3f32-33e2-89a9" hidden="false" targetId="2ebc-abdf-8129-6c57" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="Stealth Field" id="fa1b-2598-6868-69ff" hidden="false" import="true" type="upgrade">
+      <constraints>
+        <constraint id="389c-8b22-93e9-acc9-min" field="selections" scope="parent" shared="true" type="min" value="1"/>
+        <constraint id="389c-8b22-93e9-acc9-max" field="selections" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Stealth Field" id="a90a-add9-b44e-7af7" hidden="false" targetId="1055-33ed-9cec-f4b3" type="profile"/>
+      </infoLinks>
+      <modifiers>
+        <modifier affects="self.entries.recursive.profiles.Unit" field="a428-7a31-d4d7-43fb" scope="parent" type="set" value="4+"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry name="Wrath" id="c5a1-bb8a-3a91-1983" hidden="false" import="true" type="upgrade">
+      <constraints>
+        <constraint id="7bd0-1679-54fa-8f7c-min" field="selections" scope="parent" shared="true" type="min" value="1"/>
+        <constraint id="7bd0-1679-54fa-8f7c-max" field="selections" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Wrath" id="08bc-85f2-3278-7bc6" hidden="false" targetId="c363-3f50-8556-2a95" type="profile"/>
+        <infoLink name="Anti" id="cec9-fee0-916f-918f" hidden="false" targetId="4111-82e3-9444-e942" type="rule"/>
+        <infoLink name="Close-quarters" id="dd00-6d6f-11d1-593e" hidden="false" targetId="5238-5ad4-52f7-6eb4" type="rule"/>
+        <infoLink name="Devastating Wounds" id="80cb-021e-cd40-a39f" hidden="false" targetId="be1e-ac8e-1e2c-3528" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="Justice" id="4d62-9a75-1ab9-07ae" hidden="false" import="true" type="upgrade">
+      <constraints>
+        <constraint id="5a50-570e-f8a2-f690-min" field="selections" scope="parent" shared="true" type="min" value="1"/>
+        <constraint id="5a50-570e-f8a2-f690-max" field="selections" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Justice" id="ccd4-14a6-ab10-c648" hidden="false" targetId="43ba-b8b6-988c-9383" type="profile"/>
+        <infoLink name="Anti" id="fc27-1c8b-d418-102f" hidden="false" targetId="4111-82e3-9444-e942" type="rule"/>
+        <infoLink name="Close-quarters" id="52d1-2ca3-6f8f-f051" hidden="false" targetId="5238-5ad4-52f7-6eb4" type="rule"/>
+        <infoLink name="Devastating Wounds" id="bd83-af3b-f52c-f04a" hidden="false" targetId="be1e-ac8e-1e2c-3528" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="The Corvidine Talons" id="f080-22be-c40c-49bd" hidden="false" import="true" type="upgrade">
+      <constraints>
+        <constraint id="2423-8d46-21d9-9f50-min" field="selections" scope="parent" shared="true" type="min" value="1"/>
+        <constraint id="2423-8d46-21d9-9f50-max" field="selections" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="The Corvidine Talons" id="4c95-206e-bc66-c093" hidden="false" targetId="f866-aa3a-dbd9-2c60" type="profile"/>
+        <infoLink name="Cleave" id="af20-d419-460e-2acf" hidden="false" targetId="bf16-5d16-4725-f912" type="rule"/>
+        <infoLink name="Devastating Wounds" id="bfb6-61a8-ae50-f37d" hidden="false" targetId="be1e-ac8e-1e2c-3528" type="rule"/>
+        <infoLink name="Twin-linked" id="e2a2-1639-b1f4-548c" hidden="false" targetId="cf93-ad4d-2f08-a79d" type="rule"/>
+        <infoLink name="Precision" id="1685-53d6-4428-f9ed" hidden="false" targetId="9143-31ae-e0a6-6007" type="rule"/>
+        <infoLink name="Lone Operative" id="dabf-51bf-089b-353b" hidden="false" targetId="a8a0-8fe7-898-e0f3" type="rule"/>
+        <infoLink name="Stealth" id="31b1-93e9-595a-2a7b" hidden="false" targetId="bec5-4288-34a6-ccfa" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="Talonis" id="68e1-ccdd-119b-7451" hidden="false" import="true" type="upgrade">
+      <constraints>
+        <constraint id="37b8-95b8-5c77-913f-min" field="selections" scope="parent" shared="true" type="min" value="1"/>
+        <constraint id="37b8-95b8-5c77-913f-max" field="selections" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Talonis" id="2f22-e18e-afc9-0c6c" hidden="false" targetId="fdb4-bc07-a4d4-5bbd" type="profile"/>
+        <infoLink name="Extra Attacks" id="86ad-df1d-60ba-febf" hidden="false" targetId="115b-79dc-f723-d761" type="rule"/>
+        <infoLink name="Precision" id="61ae-bbd2-7620-1d1f" hidden="false" targetId="9143-31ae-e0a6-6007" type="rule"/>
+        <infoLink name="Lethal Hits" id="ee8d-f28d-bed4-89b1" hidden="false" targetId="d1d1-611e-5191-1095" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="The Sable Armor" id="b253-5e09-ec7d-1864" hidden="false" import="true" type="upgrade">
+      <constraints>
+        <constraint id="87b4-5442-701a-51e9-min" field="selections" scope="parent" shared="true" type="min" value="1"/>
+        <constraint id="87b4-5442-701a-51e9-max" field="selections" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
+      <modifiers>
+        <modifier affects="profiles.Unit" field="e703-ecb6-5ce7-aec1" scope="parent" type="set" value="8&quot;"/>
+        <modifier affects="profiles.Unit" field="450-a17e-9d5e-29da" scope="parent" type="set" value="2+"/>
+        <modifier affects="profiles.Unit" field="d29d-cf75-fc2d-34a4" scope="parent" type="set" value="9"/>
+        <modifier affects="profiles.Unit" field="a428-7a31-d4d7-43fb" scope="parent" type="set" value="4+"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry name="The Korvidine Pinions" id="9452-47a6-864d-aa7b" hidden="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink name="Jump Pack" id="bbc3-0d71-b136-514d" hidden="false" primary="false" targetId="dda2-bb0a-215e-ad9c"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="2b2e-68de-e55d-fceb-min" field="selections" scope="parent" shared="true" type="min" value="1"/>
+        <constraint id="2b2e-68de-e55d-fceb-max" field="selections" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Hover" id="5e94-bd1c-ff84-01ab" hidden="false" targetId="eec5-5f54-9c03-c305" type="rule"/>
+        <infoLink name="Deep Strike" id="1443-74d9-442b-3147" hidden="false" targetId="7cb5-dd6b-dd87-ad3b" type="rule"/>
+        <infoLink name="Bulky (6)" id="c35a-5a69-8984-d85a" hidden="false" targetId="ea47-9c65-38b3-4837" type="profile"/>
+      </infoLinks>
+      <modifiers>
+        <modifier affects="profiles.Unit" field="e703-ecb6-5ce7-aec1" scope="parent" type="increment" value="8&quot;"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry name="Corvus Corax" id="3a7f-68ca-5935-73e5" hidden="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink name="Character" id="6c47-97da-6e9d-513d" hidden="false" primary="false" targetId="9cfd-1c32-585f-7d5c"/>
+        <categoryLink name="Epic Hero" id="accc-a610-11bc-fc0e" hidden="false" primary="true" targetId="4f3a-f0f7-6647-348d"/>
+        <categoryLink name="Explosives" id="39a6-c22b-0942-56af" hidden="false" primary="false" targetId="e33d-891d-33aa-e9bf"/>
+        <categoryLink name="Imperium" id="2378-3600-f07d-9c96" hidden="false" primary="false" targetId="aff3-d6a3-2a95-9dc"/>
+        <categoryLink name="Jump Pack" id="3417-632f-93de-e169" hidden="false" primary="false" targetId="dda2-bb0a-215e-ad9c"/>
+        <categoryLink name="Monster" id="f3ef-4cc8-da52-161d" hidden="false" primary="false" targetId="9693-cf84-fe69-37a9"/>
+        <categoryLink name="Primarch" id="2e2e-a545-b903-b475" hidden="false" primary="false" targetId="6474-0ce3-6b5a-120c"/>
+        <categoryLink name="Warlord" id="c837-a268-3e00-c462" hidden="false" primary="false" targetId="5c0e-4c31-d51b-e470"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="0048-022b-10a2-6a50" field="selections" includeChildSelections="true" scope="force" shared="true" type="max" value="1"/>
+      </constraints>
+      <costs>
+        <cost name="Detachment Points" typeId="82ae-1066-5107-6ae0" value="0"/>
+        <cost name="Enhancements" typeId="f759-1bc4-cb3a-f0d2" value="0"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="415"/>
+        <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Supreme Commander" id="a652-7c91-c299-a023" hidden="false" import="true" targetId="3ee6-4288-0437-f653" type="selectionEntry"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Carve the Head from the Hydra" id="d501-d58f-5cd0-b74b" hidden="false" targetId="525a-122c-a35f-791d" type="profile"/>
+        <infoLink name="From the Shadows" id="3786-b9ce-b2ab-2b3a" hidden="false" targetId="0064-5938-d11c-fe32" type="profile"/>
+        <infoLink name="Leader" id="b265-7b60-4410-c2a9" hidden="false" targetId="cde0-5655-69cd-d409" type="profile"/>
+        <infoLink name="Fights First" id="4175-b600-1269-d253" hidden="false" targetId="24-c886-e8ba-5a89" type="rule"/>
+        <infoLink name="Master of the Legion" id="691e-1ed0-e0ae-ec67" hidden="false" targetId="94d7-9ac5-535a-9fce" type="profile"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry name="Corvus Corax" id="bff5-a7ec-a868-dfa3" hidden="false" import="true" type="model">
+          <constraints>
+            <constraint id="126d-d462-0254-01ee-min" field="selections" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="126d-d462-0254-01ee-max" field="selections" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <entryLinks>
+            <entryLink name="Wrath" id="e6a8-4105-f0b8-2415" hidden="false" import="true" targetId="c5a1-bb8a-3a91-1983" type="selectionEntry"/>
+            <entryLink name="Justice" id="65e2-24e2-1841-992b" hidden="false" import="true" targetId="4d62-9a75-1ab9-07ae" type="selectionEntry"/>
+            <entryLink name="The Corvidine Talons" id="5625-8fca-4cc0-72fb" hidden="false" import="true" targetId="f080-22be-c40c-49bd" type="selectionEntry"/>
+            <entryLink name="Talonis" id="3d80-8299-eca0-00d5" hidden="false" import="true" targetId="68e1-ccdd-119b-7451" type="selectionEntry"/>
+            <entryLink name="The Korvidine Pinions" id="e230-83c7-a5f4-7e6d" hidden="false" import="true" targetId="9452-47a6-864d-aa7b" type="selectionEntry"/>
+            <entryLink name="The Sable Armor" id="b19e-89da-2061-ff0e" hidden="false" import="true" targetId="b253-5e09-ec7d-1864" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="Shadow Warden" id="d2a4-e270-139b-3701" hidden="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink name="Captain" id="3a7b-d208-38c9-da06" hidden="false" primary="false" targetId="2d7f-1892-2fd0-e29c"/>
+        <categoryLink name="Explosives" id="9fef-14c7-887e-31e8" hidden="false" primary="false" targetId="e33d-891d-33aa-e9bf"/>
+        <categoryLink name="Imperium" id="87da-55a3-8124-be53" hidden="false" primary="false" targetId="aff3-d6a3-2a95-9dc"/>
+        <categoryLink name="Infantry" id="ac1f-acd7-858e-a60f" hidden="false" primary="false" targetId="cf47-a0d7-7207-29dc"/>
+        <categoryLink name="Moritat" id="9aea-54eb-01ad-8b9b" hidden="false" primary="false" targetId="3d94-9f49-a8ff-aeed"/>
+        <categoryLink name="Character" id="984d-494c-a889-5230" hidden="false" primary="true" targetId="9cfd-1c32-585f-7d5c"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="b082-e0a5-4775-9b3b" field="selections" includeChildSelections="true" scope="force" shared="true" type="max" value="3"/>
+        <constraint id="fb3e-5d8e-9244-891b" field="716d-91b7-d55a-1022" includeChildSelections="true" scope="self" shared="true" type="max" value="0"/>
+        <constraint id="d652-b0f2-ca65-2460" field="716d-91b7-d55a-1022" includeChildSelections="true" scope="self" shared="true" type="min" value="0"/>
+        <constraint id="91ce-4060-df89-9f59" childId="any" field="f759-1bc4-cb3a-f0d2" includeChildForces="false" includeChildSelections="true" message="An Attached Unit can only take 1 Enhancement." scope="root-entry" shared="true" traverseAssociationGroup="true" type="max" value="1"/>
+        <constraint id="8453-fba5-c874-6545" field="75bb-ded1-c86d-bdf0" includeChildSelections="false" scope="self" shared="true" type="max" value="6"/>
+      </constraints>
+      <costs>
+        <cost name="Detachment Points" typeId="82ae-1066-5107-6ae0" value="0"/>
+        <cost name="Enhancements" typeId="f759-1bc4-cb3a-f0d2" value="0"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="90"/>
+        <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Crusade" id="c099-c021-827d-3bbf" hidden="false" import="true" targetId="b1ea-db2f-d6eb-b7b6" type="selectionEntryGroup"/>
+        <entryLink name="Enhancements" id="dcbb-b72c-1981-09b4" hidden="false" import="true" targetId="d8f8-0ac1-f01d-bb56" type="selectionEntryGroup"/>
+        <entryLink name="Warlord" id="cfdb-9dae-6c80-c532" collective="false" hidden="false" import="true" targetId="caa-f869-3cbd-b48e" type="selectionEntry">
+          <constraints>
+            <constraint id="5976-e7ec-271a-043f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Leader" id="1eab-6451-889a-7e08" hidden="false" targetId="8a29-469c-1619-2658" type="profile"/>
+        <infoLink name="Guided Slaughter" id="c87a-155d-6701-6f3b" hidden="false" targetId="0c62-ff4d-1125-850b" type="profile"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry name="Shadow Warden" id="d5d7-85e1-0f78-e867" hidden="false" import="true" type="model">
+          <constraints>
+            <constraint id="8f65-1b1b-c91c-d8eb-min" field="selections" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="8f65-1b1b-c91c-d8eb-max" field="selections" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <entryLinks>
+            <entryLink name="Artificer-Crafted Scout Power Armor" id="4930-dd36-67e4-87d8" hidden="false" import="true" targetId="91c7-53bb-f4a2-4884" type="selectionEntry">
+              <constraints>
+                <constraint id="9413-cc03-6791-9415-min" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="9413-cc03-6791-9415-max" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Lone Operative" id="c33a-6dcd-7697-6ec6" hidden="false" targetId="a8a0-8fe7-898-e0f3" type="rule"/>
+              </infoLinks>
+            </entryLink>
+            <entryLink name="Cameoline Cloak" id="b7c7-9dcc-c859-dac7" hidden="false" import="true" targetId="8158-a309-62dd-338b" type="selectionEntry">
+              <constraints>
+                <constraint id="5356-d622-0358-a9e4-min" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="5356-d622-0358-a9e4-max" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <infoLinks>
+            <infoLink name="Centurion" id="be9b-2170-2013-da9d" hidden="false" targetId="31bb-4feb-c4b2-4053" type="profile"/>
+          </infoLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Jump Pack" id="f01a-26e4-fee0-4158" hidden="false">
+              <constraints>
+                <constraint id="a92c-8df0-8c9d-5014" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <entryLinks>
+                <entryLink name="Warhawk Jump Pack" id="d029-32ce-35ee-8ebb" hidden="false" import="true" targetId="fdd5-9e00-6ea7-5777" type="selectionEntry">
+                  <constraints>
+                    <constraint id="802c-54dc-b4f4-dc5d" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="51b2-306e-1021-d207" value="15"/>
+                  </costs>
+                </entryLink>
+                <entryLink name="Corvid Jump Pack" id="ebe1-93e3-aab5-1616" hidden="false" import="true" targetId="8493-a704-64a9-62f5" type="selectionEntry">
+                  <constraints>
+                    <constraint id="7735-f423-ffe0-55c8" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="51b2-306e-1021-d207" value="20"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Chainsword" id="bd2a-490d-cd4e-e45b" defaultSelectionEntryId="none" hidden="false">
+              <entryLinks>
+                <entryLink name="Centurion Melee Options" id="78d4-3dac-b023-0435" hidden="false" import="true" targetId="d5e3-e0d8-8b78-0293" type="selectionEntryGroup">
+                  <modifiers>
+                    <modifier field="hidden" type="set" value="true">
+                      <conditions>
+                        <condition childId="0f7f-0882-8c23-5f98" childName="Centurion Pistol Options" field="selections" scope="bd2a-490d-cd4e-e45b" shared="true" type="atLeast" value="1"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+                <entryLink name="Centurion Pistol Options" id="a07e-d307-a592-b806" hidden="false" import="true" targetId="0f7f-0882-8c23-5f98" type="selectionEntryGroup">
+                  <modifiers>
+                    <modifier field="hidden" type="set" value="true">
+                      <conditions>
+                        <condition childId="d5e3-e0d8-8b78-0293" childName="Centurion Melee Options" field="selections" scope="bd2a-490d-cd4e-e45b" shared="true" type="atLeast" value="1"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Silentus Bolt Pistol" id="7927-9559-bb94-ac95" hidden="false">
+              <constraints>
+                <constraint id="9c60-de08-d0c8-aee2-min" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="9c60-de08-d0c8-aee2-max" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <entryLinks>
+                <entryLink name="Fulcrum Hand Cannon" id="0e82-85f8-1865-5e60" hidden="false" import="true" targetId="5f57-e45a-cc65-bb89" type="selectionEntry"/>
+                <entryLink name="Silentus Bolt Pistol" id="ab51-32da-c1fb-1301" hidden="false" import="true" targetId="3155-30cf-3cb3-74c4" type="selectionEntry"/>
+                <entryLink name="Centurion Pistol Options" id="62ca-76b9-737f-2fac" hidden="false" import="true" targetId="feb7-e422-28dd-0c3e" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="Whispercutter" id="fdce-fbf7-f6c4-32de" hidden="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink name="Dedicated Transport" id="bd2a-8db2-3bad-90a5" hidden="false" primary="true" targetId="ba07-411c-2832-1f79"/>
+        <categoryLink name="Vehicle" id="f695-2e60-efc0-58d1" hidden="false" primary="false" targetId="dbd4-63-af05-998"/>
+        <categoryLink name="Fly" id="0da6-7b58-9d5e-130b" hidden="false" primary="false" targetId="c619-2086-bbcf-69c9"/>
+        <categoryLink name="Imperium" id="aa98-9e53-94b2-031d" hidden="false" primary="false" targetId="aff3-d6a3-2a95-9dc"/>
+        <categoryLink name="Transport" id="d31c-244e-279f-a045" hidden="false" primary="false" targetId="75e8-57c4-40e3-1817"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="2a9b-14d1-393f-8ee0" field="selections" includeChildSelections="true" scope="force" shared="true" type="max" value="3"/>
+        <constraint id="7374-3a73-3548-b4a0" field="716d-91b7-d55a-1022" includeChildSelections="true" scope="self" shared="true" type="max" value="0"/>
+        <constraint id="5b9f-2a52-7f3e-235a" field="716d-91b7-d55a-1022" includeChildSelections="true" scope="self" shared="true" type="min" value="0"/>
+        <constraint id="a3bf-fb09-d930-ba48" childId="any" field="f759-1bc4-cb3a-f0d2" includeChildForces="false" includeChildSelections="true" message="An Attached Unit can only take 1 Enhancement." scope="root-entry" shared="true" traverseAssociationGroup="true" type="max" value="1"/>
+        <constraint id="25d3-265c-bc89-1d36" field="75bb-ded1-c86d-bdf0" includeChildSelections="false" scope="self" shared="true" type="max" value="3"/>
+      </constraints>
+      <costs>
+        <cost name="Detachment Points" typeId="82ae-1066-5107-6ae0" value="0"/>
+        <cost name="Enhancements" typeId="f759-1bc4-cb3a-f0d2" value="0"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="55"/>
+        <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Army Rules" id="9955-dfd2-b81d-b72a" hidden="false" import="true" targetId="601d-9bf4-0d26-7309" type="selectionEntryGroup"/>
+        <entryLink name="Crusade" id="89e4-c0e3-2c83-258d" hidden="false" import="true" targetId="b1ea-db2f-d6eb-b7b6" type="selectionEntryGroup"/>
+        <entryLink name="Enhancements - Upgrades" id="6e5b-5698-eef1-f1c9" hidden="false" import="true" targetId="6bec-42ce-b5bc-47c6" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Deadly Demise 1" id="3307-56d0-6e2a-cd49" hidden="false" targetId="6ef5-dfe7-8092-a49e" type="profile"/>
+        <infoLink name="Firing Deck 10" id="e324-e4ff-5f69-46d0" hidden="false" targetId="f3f3-d5cb-3697-6c28" type="profile"/>
+        <infoLink name="Rapid Flight" id="12d1-a684-8733-09d6" hidden="false" targetId="2065-6b8d-9af2-d0ea" type="profile"/>
+        <infoLink name="Light Transport" id="b943-36a0-3659-b2fa" hidden="false" targetId="b1be-be90-0a1d-4138" type="profile"/>
+        <infoLink name="Hover" id="3d42-70fa-a69d-f643" hidden="false" targetId="eec5-5f54-9c03-c305" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry name="Whispercutter" id="d7b7-15af-906d-63fd" hidden="false" import="true" type="model">
+          <constraints>
+            <constraint id="6c6c-d0dc-15e6-eba6-min" field="selections" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="6c6c-d0dc-15e6-eba6-max" field="selections" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <entryLinks>
+            <entryLink name="Stealth Field" id="f196-89b5-6e36-3934" hidden="false" import="true" targetId="fa1b-2598-6868-69ff" type="selectionEntry"/>
+          </entryLinks>
+          <infoLinks>
+            <infoLink name="Whispercutter" id="eb31-c235-705a-748c" hidden="false" targetId="ee71-dd6f-5be8-da4f" type="profile"/>
+            <infoLink name="Prow Ram" id="7dc2-2937-56cc-4338" hidden="false" targetId="e29e-0e00-f9b6-b801" type="profile"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="Dark Furies" id="f1a1-94f3-4cab-21da" hidden="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink name="Explosives" id="403e-31f9-5f76-9086" hidden="false" primary="false" targetId="e33d-891d-33aa-e9bf"/>
+        <categoryLink name="Fly" id="6d52-0d2b-49b1-9060" hidden="false" primary="false" targetId="c619-2086-bbcf-69c9"/>
+        <categoryLink name="Jump Pack" id="0756-8013-dce9-3213" hidden="false" primary="false" targetId="dda2-bb0a-215e-ad9c"/>
+        <categoryLink name="Imperium" id="af30-9757-05e2-de52" hidden="false" primary="false" targetId="aff3-d6a3-2a95-9dc"/>
+        <categoryLink name="Infantry" id="8bde-87e3-a3cc-e600" hidden="false" primary="true" targetId="cf47-a0d7-7207-29dc"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="b61c-07d2-d159-5610" field="selections" includeChildSelections="true" scope="force" shared="true" type="max" value="3"/>
+        <constraint id="aaa4-343f-5833-b9e5" field="716d-91b7-d55a-1022" includeChildSelections="true" scope="self" shared="true" type="max" value="0"/>
+        <constraint id="dbcb-624e-29e6-6c5e" field="716d-91b7-d55a-1022" includeChildSelections="true" scope="self" shared="true" type="min" value="0"/>
+        <constraint id="2d19-d94f-e802-966c" childId="any" field="f759-1bc4-cb3a-f0d2" includeChildForces="false" includeChildSelections="true" message="An Attached Unit can only take 1 Enhancement." scope="root-entry" shared="true" traverseAssociationGroup="true" type="max" value="1"/>
+        <constraint id="8ca8-c00a-9e33-c2fa" field="75bb-ded1-c86d-bdf0" includeChildSelections="false" scope="self" shared="true" type="max" value="3"/>
+      </constraints>
+      <costs>
+        <cost name="Detachment Points" typeId="82ae-1066-5107-6ae0" value="0"/>
+        <cost name="Enhancements" typeId="f759-1bc4-cb3a-f0d2" value="0"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="145"/>
+        <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Army Rules" id="8b6e-18b2-9888-26a3" hidden="false" import="true" targetId="601d-9bf4-0d26-7309" type="selectionEntryGroup"/>
+        <entryLink name="Crusade" id="face-053a-0bc9-293e" hidden="false" import="true" targetId="b1ea-db2f-d6eb-b7b6" type="selectionEntryGroup"/>
+        <entryLink name="Enhancements - Upgrades" id="15f9-60d5-4201-cd1f" hidden="false" import="true" targetId="6bec-42ce-b5bc-47c6" type="selectionEntryGroup"/>
+        <entryLink name="Corvid Jump Pack" id="9449-390d-c1b3-b2ff" hidden="false" import="true" targetId="8493-a704-64a9-62f5" type="selectionEntry">
+          <constraints>
+            <constraint id="a57e-cc9b-443a-850e-min" field="selections" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="a57e-cc9b-443a-850e-max" field="selections" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
+        <entryLink name="MK VI &quot;Corvus&quot; Power Armor" id="e6b7-d943-d043-dacc" hidden="false" import="true" targetId="3771-1f60-e90f-f946" type="selectionEntry">
+          <constraints>
+            <constraint id="5b6f-43da-d4f5-9894-min" field="selections" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="5b6f-43da-d4f5-9894-max" field="selections" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Death on Black Wings" id="e99b-d4b7-4166-8ef6" hidden="false" targetId="34b7-3c9a-8cf7-0d03" type="profile"/>
+        <infoLink name="Deep Strike" id="16d2-772b-c671-aa2d" hidden="false" targetId="7cb5-dd6b-dd87-ad3b" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="51b2-306e-1021-d207" type="set" value="280">
+          <conditions>
+            <condition id="f638-70a0-dc0f-4880" childId="1753-e728-b007-9453" childName="Dark Fury" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="5"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <selectionEntries>
+        <selectionEntry name="Chooser of the Slain" id="0938-a28c-48d3-f8a1" defaultAmount="1" hidden="false" import="true" sortIndex="1" type="model">
+          <constraints>
+            <constraint id="04d6-d1bc-8e31-a4bd-min" field="selections" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="04d6-d1bc-8e31-a4bd-max" field="selections" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <entryLinks>
+            <entryLink name="Twin Raven&apos;s Talons" id="c5d9-b728-6614-3c2c" hidden="false" import="true" targetId="260b-2bef-0b70-ab6a" type="selectionEntry">
+              <constraints>
+                <constraint id="376f-a259-d79b-5570-min" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="376f-a259-d79b-5570-max" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+              </costs>
+            </entryLink>
+            <entryLink name="Meltabomb" id="a139-8c20-200a-cac4" hidden="false" import="true" targetId="bb1a-69c2-3f3b-1594" type="selectionEntry">
+              <constraints>
+                <constraint id="7733-ccfd-2ff3-b865" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <infoLinks>
+            <infoLink name="Legion Sergeant" id="8c00-6971-dcdc-dec2" hidden="false" targetId="379a-25e3-e55d-38af" type="profile"/>
+          </infoLinks>
+          <modifiers>
+            <modifier field="04d6-d1bc-8e31-a4bd-min" type="increment" value="1">
+              <conditions>
+                <condition childId="1753-e728-b007-9453" childName="Dark Fury" field="selections" scope="parent" shared="true" type="atLeast" value="5"/>
+              </conditions>
+            </modifier>
+            <modifier field="04d6-d1bc-8e31-a4bd-max" type="increment" value="1">
+              <conditions>
+                <condition childId="1753-e728-b007-9453" childName="Dark Fury" field="selections" scope="parent" shared="true" type="atLeast" value="5"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry name="Dark Fury" id="1753-e728-b007-9453" defaultAmount="4" hidden="false" import="true" sortIndex="2" type="model">
+          <constraints>
+            <constraint id="3f2b-152b-939c-4aeb" field="selections" scope="parent" shared="true" type="min" value="4"/>
+            <constraint id="cd0b-042b-d8b5-0b53" field="selections" scope="parent" shared="true" type="max" value="8"/>
+          </constraints>
+          <entryLinks>
+            <entryLink name="Twin Raven&apos;s Talons" id="899a-8d2b-a823-9076" hidden="false" import="true" targetId="260b-2bef-0b70-ab6a" type="selectionEntry">
+              <constraints>
+                <constraint id="00b4-e199-bada-c5c5-min" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="00b4-e199-bada-c5c5-max" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <infoLinks>
+            <infoLink name="Legionary" id="be81-52e1-3789-1dd7" hidden="false" targetId="287d-915e-da54-97d1" type="profile"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="Deliverers" id="9c9e-4079-1365-49cc" hidden="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink name="Imperium" id="a377-9611-245f-a32a" hidden="false" primary="false" targetId="aff3-d6a3-2a95-9dc"/>
+        <categoryLink name="Infantry" id="d244-7f9b-cd95-8740" hidden="false" primary="true" targetId="cf47-a0d7-7207-29dc"/>
+        <categoryLink name="Terminator" id="a7f2-6e7c-7206-a437" hidden="false" primary="false" targetId="740a-892c-8958-defa"/>
+        <categoryLink name="Deliverers" id="e2e9-1b86-67ba-818e" hidden="false" primary="false" targetId="4c7e-c4e7-04e0-2a49"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="517e-71d1-e2c2-6968" field="selections" includeChildSelections="true" scope="force" shared="true" type="max" value="3"/>
+        <constraint id="99c5-1351-cc07-7f03" field="716d-91b7-d55a-1022" includeChildSelections="true" scope="self" shared="true" type="max" value="0"/>
+        <constraint id="acd2-baba-3789-5a03" field="716d-91b7-d55a-1022" includeChildSelections="true" scope="self" shared="true" type="min" value="0"/>
+        <constraint id="26f2-a752-e6f7-ecc3" childId="any" field="f759-1bc4-cb3a-f0d2" includeChildForces="false" includeChildSelections="true" message="An Attached Unit can only take 1 Enhancement." scope="root-entry" shared="true" traverseAssociationGroup="true" type="max" value="1"/>
+        <constraint id="b54a-09ae-bddf-e469" field="75bb-ded1-c86d-bdf0" includeChildSelections="false" scope="self" shared="true" type="max" value="3"/>
+      </constraints>
+      <costs>
+        <cost name="Detachment Points" typeId="82ae-1066-5107-6ae0" value="0"/>
+        <cost name="Enhancements" typeId="f759-1bc4-cb3a-f0d2" value="0"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="215"/>
+        <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Army Rules" id="006d-7fa9-7a43-2a59" hidden="false" import="true" targetId="601d-9bf4-0d26-7309" type="selectionEntryGroup"/>
+        <entryLink name="Crusade" id="f2a2-55da-7175-3e6c" hidden="false" import="true" targetId="b1ea-db2f-d6eb-b7b6" type="selectionEntryGroup"/>
+        <entryLink name="Enhancements - Upgrades" id="fa5e-df6c-073d-648c" hidden="false" import="true" targetId="6bec-42ce-b5bc-47c6" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Slaughter the Weak" id="9b15-9c40-5f45-1664" hidden="false" targetId="e5f7-5598-a7c2-0052" type="profile"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="51b2-306e-1021-d207" type="set" value="405">
+          <conditions>
+            <condition id="71ea-f711-8050-2574" childId="0259-9c80-18bd-c11c" childName="Deliverer" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="5"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Deliverer Chieftain" id="4167-e0f7-0a62-b691" hidden="false" sortIndex="1">
+          <constraints>
+            <constraint id="d88d-e83b-6981-9c94-min" field="selections" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="d88d-e83b-6981-9c94-max" field="selections" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry name="Deliverer Chieftain" id="185e-3eda-563d-c4ee" defaultAmount="1" hidden="false" import="true" type="model">
+              <entryLinks>
+                <entryLink name="Cataphractii Terminator Armor" id="eafc-84dd-9daf-6649" hidden="false" import="true" targetId="ff46-3c99-291b-fe0d" type="selectionEntry">
+                  <constraints>
+                    <constraint id="bd68-58d1-06ff-8500-min" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                    <constraint id="bd68-58d1-06ff-8500-max" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <infoLinks>
+                <infoLink name="Legion Sergeant" id="def6-b535-d49d-f8b9" hidden="false" targetId="379a-25e3-e55d-38af" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Deliverer" id="0259-9c80-18bd-c11c" hidden="false" sortIndex="2">
+          <constraints>
+            <constraint id="1d3f-2eb9-bb40-faf1" field="selections" scope="parent" shared="true" type="min" value="4"/>
+            <constraint id="8821-1b10-5de7-04d4" field="selections" scope="parent" shared="true" type="max" value="9"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry name="Deliverer" id="f114-cd80-c86a-ea22" defaultAmount="4" hidden="false" import="true" type="model">
+              <entryLinks>
+                <entryLink name="Cataphractii Terminator Armor" id="d17d-a23c-cc5e-9000" hidden="false" import="true" targetId="ff46-3c99-291b-fe0d" type="selectionEntry">
+                  <constraints>
+                    <constraint id="80e1-907a-ff80-8ef5-min" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                    <constraint id="80e1-907a-ff80-8ef5-max" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <infoLinks>
+                <infoLink name="Legionary" id="99c2-6ae7-f614-c39b" hidden="false" targetId="287d-915e-da54-97d1" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry name="Deliverer w/Heavy Weapon" id="3cfb-66e3-876c-a7e2" defaultAmount="0" hidden="false" import="true" type="model">
+              <constraints>
+                <constraint id="f537-d4cb-a7c4-1fe9" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <entryLinks>
+                <entryLink name="Cataphractii Terminator Armor" id="d9e2-5b3a-8b1f-ab2a" hidden="false" import="true" targetId="ff46-3c99-291b-fe0d" type="selectionEntry">
+                  <constraints>
+                    <constraint id="4431-7ca5-1bdf-20ce-min" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                    <constraint id="4431-7ca5-1bdf-20ce-max" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink name="Terminator Heavy Ranged Weapons" id="7310-a27d-9b6b-a6fc" hidden="false" import="true" targetId="f91d-364e-9919-50dc" type="selectionEntryGroup"/>
+                  </entryLinks>
+                </entryLink>
+              </entryLinks>
+              <infoLinks>
+                <infoLink name="Legionary" id="af56-2405-989d-ddbd" hidden="false" targetId="287d-915e-da54-97d1" type="profile"/>
+              </infoLinks>
+              <modifiers>
+                <modifier field="f537-d4cb-a7c4-1fe9" type="increment" value="1">
+                  <conditions>
+                    <condition id="edfd-6d66-873d-c1f3" childId="0259-9c80-18bd-c11c" childName="Deliverer" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="9"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry name="Mor Deythan" id="1417-fa70-17dd-b1fe" hidden="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink name="Infantry" id="8945-eff4-1a1e-ba75" hidden="false" primary="true" targetId="cf47-a0d7-7207-29dc"/>
+        <categoryLink name="Imperium" id="ca4c-7f53-ff4b-2369" hidden="false" primary="false" targetId="aff3-d6a3-2a95-9dc"/>
+        <categoryLink name="Explosives" id="910f-7359-ad2e-c1d7" hidden="false" primary="false" targetId="e33d-891d-33aa-e9bf"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="6ecd-a448-87c3-5a78" field="selections" includeChildSelections="true" scope="force" shared="true" type="max" value="3"/>
+        <constraint id="34a8-7106-b975-5e5f" field="716d-91b7-d55a-1022" includeChildSelections="true" scope="self" shared="true" type="max" value="0"/>
+        <constraint id="3554-f0da-de33-7da0" field="716d-91b7-d55a-1022" includeChildSelections="true" scope="self" shared="true" type="min" value="0"/>
+        <constraint id="5a2e-fd80-997f-499d" childId="any" field="f759-1bc4-cb3a-f0d2" includeChildForces="false" includeChildSelections="true" message="An Attached Unit can only take 1 Enhancement." scope="root-entry" shared="true" traverseAssociationGroup="true" type="max" value="1"/>
+        <constraint id="eec9-8a6c-506b-5c24" field="75bb-ded1-c86d-bdf0" includeChildSelections="false" scope="self" shared="true" type="max" value="3"/>
+      </constraints>
+      <costs>
+        <cost name="Detachment Points" typeId="82ae-1066-5107-6ae0" value="0"/>
+        <cost name="Enhancements" typeId="f759-1bc4-cb3a-f0d2" value="0"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="80"/>
+        <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Army Rules" id="a5cb-a3bc-05f8-b9a0" hidden="false" import="true" targetId="601d-9bf4-0d26-7309" type="selectionEntryGroup"/>
+        <entryLink name="Crusade" id="a1da-fa14-962c-e99d" hidden="false" import="true" targetId="b1ea-db2f-d6eb-b7b6" type="selectionEntryGroup"/>
+        <entryLink name="Enhancements - Upgrades" id="2566-5209-8156-1c7a" hidden="false" import="true" targetId="6bec-42ce-b5bc-47c6" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Fatal Strike" id="c65f-94ea-3346-8ea6" hidden="false" targetId="f9c1-e290-7cd7-1242" type="profile"/>
+        <infoLink name="Target Sighted" id="565c-e314-8008-a745" hidden="false" targetId="a421-783b-c627-1fd0" type="profile"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="51b2-306e-1021-d207" type="increment" value="125">
+          <conditions>
+            <condition id="2b02-056c-70ee-83b9" childId="6588-04e7-6624-5b61" childName="Mor Deythan" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="5"/>
+          </conditions>
+        </modifier>
+        <modifier field="51b2-306e-1021-d207" type="increment" value="55">
+          <conditions>
+            <condition id="b340-1a28-29b8-0522" childId="6588-04e7-6624-5b61" childName="Mor Deythan" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="3"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Mor Deythan Shade" id="43fc-4b8b-c4c5-4d13" hidden="false" sortIndex="1">
+          <constraints>
+            <constraint id="c3b7-1174-a36f-df16-min" field="selections" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="c3b7-1174-a36f-df16-max" field="selections" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry name="Mor Deythan Shade" id="c07a-7abd-01a4-64d2" hidden="false" import="true" type="upgrade">
+              <entryLinks>
+                <entryLink name="MK VI &quot;Corvus&quot; Power Armor" id="373e-d89b-ef9b-8969" hidden="false" import="true" targetId="3771-1f60-e90f-f946" type="selectionEntry">
+                  <constraints>
+                    <constraint id="9be5-2e1b-b5c0-fcbf-min" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                    <constraint id="9be5-2e1b-b5c0-fcbf-max" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                </entryLink>
+                <entryLink name="Cameoline Cloak" id="e6c0-6e71-b62f-afd8" hidden="false" import="true" targetId="8158-a309-62dd-338b" type="selectionEntry">
+                  <constraints>
+                    <constraint id="0b9e-5088-ea2e-158e-min" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                    <constraint id="0b9e-5088-ea2e-158e-max" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+              <infoLinks>
+                <infoLink name="Legionary" id="ae23-7f34-c9ed-303b" hidden="false" targetId="287d-915e-da54-97d1" type="profile"/>
+              </infoLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Close Combat Weapon" id="7ee7-8635-3b2c-db0d" defaultSelectionEntryId="289e-70e8-6b57-fa4b" hidden="false">
+                  <constraints>
+                    <constraint id="5f6c-1f4e-39cf-30b6-min" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                    <constraint id="5f6c-1f4e-39cf-30b6-max" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink name="Close Combat Weapon" id="289e-70e8-6b57-fa4b" hidden="false" import="true" targetId="f8f6-deb5-8611-6e99" type="selectionEntry"/>
+                  </entryLinks>
+                  <selectionEntries>
+                    <selectionEntry name="Power Weapon" id="9ef7-2b2d-7044-8981" hidden="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint id="1b87-2753-5d3b-0dc5" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                      </constraints>
+                      <costs>
+                        <cost name="Detachment Points" typeId="82ae-1066-5107-6ae0" value="0"/>
+                        <cost name="Enhancements" typeId="f759-1bc4-cb3a-f0d2" value="0"/>
+                        <cost name="pts" typeId="51b2-306e-1021-d207" value="5"/>
+                        <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+                        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+                        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+                        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+                        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+                      </costs>
+                      <entryLinks>
+                        <entryLink name="Power Weapons" id="f7a7-fdaa-a65d-043b" hidden="false" import="true" targetId="234f-c7c8-af1a-538c" type="selectionEntryGroup"/>
+                      </entryLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Nemesis Bolter" id="e8d2-35de-2b22-bea0" defaultSelectionEntryId="303d-29e7-8a00-9d60" hidden="false">
+                  <constraints>
+                    <constraint id="0201-278c-cf74-e551-min" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                    <constraint id="0201-278c-cf74-e551-max" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink name="Nemesis Bolter" id="303d-29e7-8a00-9d60" hidden="false" import="true" targetId="fb45-0f21-55a2-55cc" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink name="Combi-Weapon" id="12c8-bcc6-9152-b6ea" hidden="false" import="true" targetId="4daf-7dbf-467f-e397" type="selectionEntryGroup"/>
+                    <entryLink name="Raven Pattern Assault Shotgun" id="cfbe-bb2c-3a8a-818c" hidden="false" import="true" targetId="3880-4fef-ec61-5fcc" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Mor Deythan" id="6588-04e7-6624-5b61" hidden="false" sortIndex="2">
+          <constraints>
+            <constraint id="a58e-c413-99bf-e7a7" field="selections" scope="parent" shared="true" type="min" value="2"/>
+            <constraint id="c261-21f1-d202-5fdc" field="selections" scope="parent" shared="true" type="max" value="9"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry name="Mor Deythan" id="1381-4634-e6b4-1d8c" defaultAmount="2" hidden="false" import="true" type="model">
+              <entryLinks>
+                <entryLink name="MK VI &quot;Corvus&quot; Power Armor" id="56c9-7a70-ad1d-e9d3" hidden="false" import="true" targetId="3771-1f60-e90f-f946" type="selectionEntry">
+                  <constraints>
+                    <constraint id="0204-bde6-6397-4441-min" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                    <constraint id="0204-bde6-6397-4441-max" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                </entryLink>
+                <entryLink name="Cameoline Cloak" id="4980-ec22-a2af-928b" hidden="false" import="true" targetId="8158-a309-62dd-338b" type="selectionEntry">
+                  <constraints>
+                    <constraint id="6d64-6ff8-5091-fed6-min" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                    <constraint id="6d64-6ff8-5091-fed6-max" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+              <infoLinks>
+                <infoLink name="Legionary" id="351e-544f-4375-7b31" hidden="false" targetId="287d-915e-da54-97d1" type="profile"/>
+              </infoLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Close Combat Weapon" id="5ac1-dd2d-1686-6cbe" defaultSelectionEntryId="2bbc-ac2e-b08a-503e" hidden="false">
+                  <constraints>
+                    <constraint id="48d0-54e2-6383-9a91-min" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                    <constraint id="48d0-54e2-6383-9a91-max" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink name="Close Combat Weapon" id="2bbc-ac2e-b08a-503e" hidden="false" import="true" targetId="f8f6-deb5-8611-6e99" type="selectionEntry"/>
+                  </entryLinks>
+                  <selectionEntries>
+                    <selectionEntry name="Power Weapon" id="6afd-8a25-1b60-28cc" hidden="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint id="a19a-d6e0-c9b3-a527" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                      </constraints>
+                      <costs>
+                        <cost name="Detachment Points" typeId="82ae-1066-5107-6ae0" value="0"/>
+                        <cost name="Enhancements" typeId="f759-1bc4-cb3a-f0d2" value="0"/>
+                        <cost name="pts" typeId="51b2-306e-1021-d207" value="5"/>
+                        <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+                        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+                        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+                        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+                        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+                      </costs>
+                      <entryLinks>
+                        <entryLink name="Power Weapons" id="d16c-594f-6dcf-9e49" hidden="false" import="true" targetId="234f-c7c8-af1a-538c" type="selectionEntryGroup"/>
+                      </entryLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Nemesis Bolter" id="f1b5-a7c4-9605-ea9c" defaultSelectionEntryId="26f2-01b6-9c68-e99c" hidden="false">
+                  <constraints>
+                    <constraint id="f30e-90ce-8c71-373f-min" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                    <constraint id="f30e-90ce-8c71-373f-max" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink name="Nemesis Bolter" id="26f2-01b6-9c68-e99c" hidden="false" import="true" targetId="fb45-0f21-55a2-55cc" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink name="Combi-Weapon" id="95c6-2419-4e38-3d77" hidden="false" import="true" targetId="4daf-7dbf-467f-e397" type="selectionEntryGroup"/>
+                    <entryLink name="Raven Pattern Assault Shotgun" id="97da-146c-ab01-eff8" hidden="false" import="true" targetId="3880-4fef-ec61-5fcc" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+            <selectionEntry name="Mor Deythan w/Special Weapon" id="f3d7-49f0-f9e3-85b2" hidden="false" import="true" type="model">
+              <constraints>
+                <constraint id="ee91-e60a-86ea-2345" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <entryLinks>
+                <entryLink name="MK VI &quot;Corvus&quot; Power Armor" id="69e3-8e3a-b872-f6ea" hidden="false" import="true" targetId="3771-1f60-e90f-f946" type="selectionEntry">
+                  <constraints>
+                    <constraint id="b7ca-ba24-675c-73b1-min" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                    <constraint id="b7ca-ba24-675c-73b1-max" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                </entryLink>
+                <entryLink name="Cameoline Cloak" id="3775-2467-cd9e-21f7" hidden="false" import="true" targetId="8158-a309-62dd-338b" type="selectionEntry">
+                  <constraints>
+                    <constraint id="9b29-0459-3281-c093-min" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                    <constraint id="9b29-0459-3281-c093-max" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+              <infoLinks>
+                <infoLink name="Legionary" id="ac9f-147d-510f-7541" hidden="false" targetId="287d-915e-da54-97d1" type="profile"/>
+              </infoLinks>
+              <modifiers>
+                <modifier field="ee91-e60a-86ea-2345" type="increment" value="1">
+                  <conditions>
+                    <condition id="2668-9341-d296-f108" childId="6588-04e7-6624-5b61" childName="Mor Deythan" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="6"/>
+                  </conditions>
+                </modifier>
+                <modifier field="ee91-e60a-86ea-2345" type="increment" value="1">
+                  <conditions>
+                    <condition id="601c-8468-14b4-ecbc" childId="6588-04e7-6624-5b61" childName="Mor Deythan" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="9"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Close Combat Weapon" id="2aa2-48fc-f6c1-be6d" defaultSelectionEntryId="f224-b985-7231-8da9" hidden="false">
+                  <constraints>
+                    <constraint id="7b45-c5e9-3b0e-861a-min" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                    <constraint id="7b45-c5e9-3b0e-861a-max" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink name="Close Combat Weapon" id="f224-b985-7231-8da9" hidden="false" import="true" targetId="f8f6-deb5-8611-6e99" type="selectionEntry"/>
+                  </entryLinks>
+                  <selectionEntries>
+                    <selectionEntry name="Power Weapon" id="b699-b2c1-ea10-a1c1" hidden="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint id="a448-8426-bfc9-2f96" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                      </constraints>
+                      <costs>
+                        <cost name="Detachment Points" typeId="82ae-1066-5107-6ae0" value="0"/>
+                        <cost name="Enhancements" typeId="f759-1bc4-cb3a-f0d2" value="0"/>
+                        <cost name="pts" typeId="51b2-306e-1021-d207" value="5"/>
+                        <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+                        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+                        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+                        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+                        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+                      </costs>
+                      <entryLinks>
+                        <entryLink name="Power Weapons" id="68de-8282-53a5-44e1" hidden="false" import="true" targetId="234f-c7c8-af1a-538c" type="selectionEntryGroup"/>
+                      </entryLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Special Weapon" id="42a7-fa6c-6ef1-40ee" hidden="false">
+                  <constraints>
+                    <constraint id="d463-72b0-272a-c494-min" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                    <constraint id="d463-72b0-272a-c494-max" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink name="Flamer" id="bdb4-08e8-4d32-a0e0" hidden="false" import="true" targetId="5309-7ce6-295e-00e9" type="selectionEntry"/>
+                    <entryLink name="Plasma Gun" id="051d-6bcc-d0cb-e9ca" hidden="false" import="true" targetId="2f17-94ad-910b-dbb8" type="selectionEntry"/>
+                    <entryLink name="Plasma Pistol" id="eec8-eb81-f67b-21e4" hidden="false" import="true" targetId="7a5d-630d-e8e1-4c9f" type="selectionEntry"/>
+                    <entryLink name="Meltagun" id="9ede-4c6b-1d35-0e11" hidden="false" import="true" targetId="a7d3-8fc8-0922-2b22" type="selectionEntry"/>
+                    <entryLink name="Missile Launcher" id="cc56-d07a-57cf-a117" hidden="false" import="true" targetId="df75-d11b-70a4-5a57" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="51b2-306e-1021-d207" value="10"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry name="Shadow Killers" id="e0c2-0a21-2719-f44b" hidden="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink name="Infantry" id="52e6-7d4b-e3f8-cd56" hidden="false" primary="true" targetId="cf47-a0d7-7207-29dc"/>
+        <categoryLink name="Imperium" id="6b7c-8dc7-0594-bf5c" hidden="false" primary="false" targetId="aff3-d6a3-2a95-9dc"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="5e3d-35a4-f591-a05a" field="selections" includeChildSelections="true" scope="force" shared="true" type="max" value="3"/>
+        <constraint id="045a-339a-f270-21f0" field="716d-91b7-d55a-1022" includeChildSelections="true" scope="self" shared="true" type="max" value="0"/>
+        <constraint id="a16c-709d-4488-b6ed" field="716d-91b7-d55a-1022" includeChildSelections="true" scope="self" shared="true" type="min" value="0"/>
+        <constraint id="d84e-3a13-fc6c-f91a" childId="any" field="f759-1bc4-cb3a-f0d2" includeChildForces="false" includeChildSelections="true" message="An Attached Unit can only take 1 Enhancement." scope="root-entry" shared="true" traverseAssociationGroup="true" type="max" value="1"/>
+        <constraint id="8962-db57-ea29-154e" field="75bb-ded1-c86d-bdf0" includeChildSelections="false" scope="self" shared="true" type="max" value="3"/>
+      </constraints>
+      <costs>
+        <cost name="Detachment Points" typeId="82ae-1066-5107-6ae0" value="0"/>
+        <cost name="Enhancements" typeId="f759-1bc4-cb3a-f0d2" value="0"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="100"/>
+        <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Army Rules" id="3ae7-0be4-8a0e-cfcd" hidden="false" import="true" targetId="601d-9bf4-0d26-7309" type="selectionEntryGroup"/>
+        <entryLink name="Crusade" id="685b-e040-09b1-5d0d" hidden="false" import="true" targetId="b1ea-db2f-d6eb-b7b6" type="selectionEntryGroup"/>
+        <entryLink name="Enhancements - Upgrades" id="272f-0ef4-f91c-2189" hidden="false" import="true" targetId="6bec-42ce-b5bc-47c6" type="selectionEntryGroup"/>
+        <entryLink name="Warhawk Jump Pack" id="68f6-6403-6fb2-f34d" hidden="false" import="true" targetId="fdd5-9e00-6ea7-5777" type="selectionEntry">
+          <constraints>
+            <constraint id="e11c-557c-1f77-b825" field="selections" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
+          </costs>
+          <modifiers>
+            <modifier field="51b2-306e-1021-d207" type="increment" value="25">
+              <conditions>
+                <condition childId="3732-e24b-b1c0-5abf" childName="Shadow Killer" field="selections" scope="parent" shared="true" type="atLeast" value="20"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Bitter Duty" id="b717-db86-ced2-a3b1" hidden="false" targetId="79a8-7fe5-feb5-cd63" type="profile"/>
+        <infoLink name="Expendable" id="8326-e3cb-531a-5d59" hidden="false" targetId="13da-0c9f-9cf0-9122" type="profile"/>
+        <infoLink name="Death is my Duty" id="3509-133c-7408-1fd6" hidden="false" targetId="a317-4081-f74e-b0b2" type="profile"/>
+        <infoLink name="Sable Brand" id="ef1b-a47c-f8a0-b18e" hidden="false" targetId="f22d-fcfb-61bf-df45" type="profile"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="51b2-306e-1021-d207" type="increment" value="190">
+          <conditions>
+            <condition id="b47c-b166-bc20-6596" childId="3732-e24b-b1c0-5abf" childName="Shadow Killer" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="11"/>
+          </conditions>
+        </modifier>
+        <modifier field="51b2-306e-1021-d207" type="increment" value="95">
+          <conditions>
+            <condition id="9849-6ccb-c98b-a3bd" childId="3732-e24b-b1c0-5abf" childName="Shadow Killer" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="6"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <selectionEntries>
+        <selectionEntry name="Shadow Killer" id="3732-e24b-b1c0-5abf" defaultAmount="5" hidden="false" import="true" type="model">
+          <constraints>
+            <constraint id="119a-97d6-2205-951d" field="selections" scope="parent" shared="true" type="min" value="5"/>
+            <constraint id="117d-4c3a-f05c-6cfc" field="selections" scope="parent" shared="true" type="max" value="20"/>
+          </constraints>
+          <entryLinks>
+            <entryLink name="MK II &quot;Crusade&quot; Power Armor" id="50f3-adaf-0918-4f01" hidden="false" import="true" targetId="e391-46cf-d1df-bd5b" type="selectionEntry">
+              <constraints>
+                <constraint id="59a5-3dd4-8b64-f5a1-min" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="59a5-3dd4-8b64-f5a1-max" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <infoLinks>
+            <infoLink name="Legionary" id="ad9b-6d22-66ad-ea64" hidden="false" targetId="287d-915e-da54-97d1" type="profile"/>
+          </infoLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Bolt Pistol" id="190e-ea88-0566-b38d" defaultSelectionEntryId="5645-33be-9679-57c9" hidden="false">
+              <constraints>
+                <constraint id="dfe4-ad18-cbac-9a19-min" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="dfe4-ad18-cbac-9a19-max" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <entryLinks>
+                <entryLink name="Bolt Pistol" id="5645-33be-9679-57c9" hidden="false" import="true" targetId="d25f-01b5-518e-a374" type="selectionEntry"/>
+                <entryLink name="Plasma Pistol" id="a93b-af83-8a13-706c" hidden="false" import="true" targetId="7a5d-630d-e8e1-4c9f" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="51b2-306e-1021-d207" value="5"/>
+                  </costs>
+                </entryLink>
+                <entryLink name="Volkite Serpenta" id="4c7f-074a-7e4b-d8c3" hidden="false" import="true" targetId="3034-fd56-f9f2-2eae" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="51b2-306e-1021-d207" value="5"/>
+                  </costs>
+                </entryLink>
+                <entryLink name="Hand Flamer" id="a70e-0fac-1e2f-fcdc" hidden="false" import="true" targetId="e0ea-8ed0-fd6a-2efe" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="51b2-306e-1021-d207" value="5"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Chainsword" id="88a5-6696-8409-f375" hidden="false">
+              <constraints>
+                <constraint id="40de-9bda-271f-bdfb-min" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="40de-9bda-271f-bdfb-max" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <entryLinks>
+                <entryLink name="Chainsword" id="376b-ca9a-f31e-d1e4" hidden="false" import="true" targetId="b9ba-4362-ec80-4c06" type="selectionEntry">
+                  <constraints>
+                    <constraint id="6be0-e6d4-ea8d-6ce6" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <selectionEntries>
+                <selectionEntry name="Power Weapon" id="9ac9-87bb-bcaa-06cd" hidden="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint id="4cbd-37f1-a0f5-8616" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Detachment Points" typeId="82ae-1066-5107-6ae0" value="0"/>
+                    <cost name="Enhancements" typeId="f759-1bc4-cb3a-f0d2" value="0"/>
+                    <cost name="pts" typeId="51b2-306e-1021-d207" value="5"/>
+                    <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+                    <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+                    <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+                    <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+                    <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+                  </costs>
+                  <entryLinks>
+                    <entryLink name="Power Weapons" id="ae42-a219-de9a-5e78" hidden="false" import="true" targetId="234f-c7c8-af1a-538c" type="selectionEntryGroup"/>
+                  </entryLinks>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="Darkwing Gunship" id="9f23-f12b-d564-da0a" hidden="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink name="Fly" id="c304-4da3-c82d-9898" hidden="false" primary="false" targetId="c619-2086-bbcf-69c9"/>
+        <categoryLink name="Imperium" id="0bb9-4333-d274-344b" hidden="false" primary="false" targetId="aff3-d6a3-2a95-9dc"/>
+        <categoryLink name="Vehicle" id="c45a-6b53-7ada-3318" hidden="false" primary="true" targetId="dbd4-63-af05-998"/>
+        <categoryLink name="Transport" id="69b8-4749-d401-8f9d" hidden="false" primary="false" targetId="75e8-57c4-40e3-1817"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="3e32-3bd7-42ed-a34f" field="selections" includeChildSelections="true" scope="force" shared="true" type="max" value="3"/>
+        <constraint id="d7bb-863f-c6d8-dd81" field="716d-91b7-d55a-1022" includeChildSelections="true" scope="self" shared="true" type="max" value="0"/>
+        <constraint id="780f-39d2-2482-aeb5" field="716d-91b7-d55a-1022" includeChildSelections="true" scope="self" shared="true" type="min" value="0"/>
+        <constraint id="8063-3746-da6c-0614" childId="any" field="f759-1bc4-cb3a-f0d2" includeChildForces="false" includeChildSelections="true" message="An Attached Unit can only take 1 Enhancement." scope="root-entry" shared="true" traverseAssociationGroup="true" type="max" value="1"/>
+        <constraint id="fca3-4f50-8852-1507" field="75bb-ded1-c86d-bdf0" includeChildSelections="false" scope="self" shared="true" type="max" value="3"/>
+      </constraints>
+      <costs>
+        <cost name="Detachment Points" typeId="82ae-1066-5107-6ae0" value="0"/>
+        <cost name="Enhancements" typeId="f759-1bc4-cb3a-f0d2" value="0"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="260"/>
+        <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Army Rules" id="fc0e-2a0f-9938-6c78" hidden="false" import="true" targetId="601d-9bf4-0d26-7309" type="selectionEntryGroup"/>
+        <entryLink name="Crusade" id="ca94-1d6e-f055-d513" hidden="false" import="true" targetId="b1ea-db2f-d6eb-b7b6" type="selectionEntryGroup"/>
+        <entryLink name="Enhancements - Upgrades" id="4244-05f0-8ac0-33ee" hidden="false" import="true" targetId="6bec-42ce-b5bc-47c6" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Armored Resilience" id="0684-d362-535d-8f6a" hidden="false" targetId="0850-925e-fa32-ebb1" type="profile"/>
+        <infoLink name="Damaged 6" id="85c5-abc1-5fd8-5909" hidden="false" targetId="0cad-7fac-e852-a3ae" type="profile"/>
+        <infoLink name="Deadly Demise D6" id="bb12-90c5-e849-b89a" hidden="false" targetId="d192-c42c-bbcb-03ca" type="profile"/>
+        <infoLink name="Transport" id="7ee4-cfa4-2c2a-8773" hidden="false" targetId="be7c-512f-216b-7891" type="profile"/>
+        <infoLink name="Hover" id="8eb9-728a-7b10-6fa4" hidden="false" targetId="eec5-5f54-9c03-c305" type="rule"/>
+        <infoLink name="Stealth Field" id="941c-cc5e-bbe3-1537" hidden="false" targetId="1055-33ed-9cec-f4b3" type="profile"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry name="Storm Eagle Gunship" id="886c-af04-f3cb-6218" defaultAmount="1" hidden="false" import="true" type="model">
+          <constraints>
+            <constraint id="cb3d-f0d1-4b9e-7e4a" field="selections" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="e4eb-a4a3-311a-6221" field="selections" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <entryLinks>
+            <entryLink name="Vengeance Launcher" id="4956-b63f-0948-45d3" hidden="false" import="true" targetId="52dd-2558-e07f-d1b4" type="selectionEntry">
+              <constraints>
+                <constraint id="062c-95f9-b393-48ef" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="d18d-a8f9-e732-0c22" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Stealth Field" id="41b1-47ba-b374-b71c" hidden="false" import="true" targetId="fa1b-2598-6868-69ff" type="selectionEntry"/>
+          </entryLinks>
+          <infoLinks>
+            <infoLink name="Armored Hull" id="9e79-c10e-88dc-f690" hidden="false" targetId="aac0-237c-d879-2ca2" type="profile"/>
+            <infoLink name="Astartes Gunship" id="50bb-b247-c729-375a" hidden="false" targetId="9130-4d6f-cded-b91a" type="profile"/>
+          </infoLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Gravis Lascannons" id="cca2-8e4e-c4d9-2528" defaultSelectionEntryId="02ee-6512-79b9-8d33" hidden="false">
+              <constraints>
+                <constraint id="27b1-cdba-a36f-1d57" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="64d0-3a2a-1dc1-66a0" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry name="Gravis Lascannons" id="2037-c951-c146-97b6" hidden="false" import="true" type="upgrade">
+                  <entryLinks>
+                    <entryLink name="Gravis Lascannon" id="04be-cca3-30b8-3577" hidden="false" import="true" targetId="e840-90d9-4bd1-8ca1" type="selectionEntry">
+                      <constraints>
+                        <constraint id="7712-15ed-1db9-64b0" field="selections" scope="parent" shared="true" type="min" value="2"/>
+                        <constraint id="0126-55e3-273c-9183" field="selections" scope="parent" shared="true" type="max" value="2"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntry>
+                <selectionEntry name="Hellstrike Launchers" id="a624-2d7a-052b-f488" hidden="false" import="true" type="upgrade">
+                  <entryLinks>
+                    <entryLink name="Hellstrike Launcher" id="5c15-3cf7-7e97-3db8" hidden="false" import="true" targetId="3e93-55ba-07cb-c7b7" type="selectionEntry">
+                      <constraints>
+                        <constraint id="dad0-d24b-0d1e-8641" field="selections" scope="parent" shared="true" type="min" value="2"/>
+                        <constraint id="c21f-4fd3-d557-b910" field="selections" scope="parent" shared="true" type="max" value="2"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Twin Heavy Bolter" id="14df-c2ef-22c5-c53c" defaultSelectionEntryId="4ec2-4506-186e-01ba" hidden="false">
+              <constraints>
+                <constraint id="6790-519f-2d9e-549d" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="b846-89c9-ac85-f200" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <entryLinks>
+                <entryLink name="Twin Heavy Bolter" id="a108-3c83-fae1-d159" hidden="false" import="true" targetId="fd8b-d9d6-96b8-04ee" type="selectionEntry"/>
+                <entryLink name="Twin Multi-Melta" id="362c-b2a7-e094-d49f" hidden="false" import="true" targetId="856b-67dd-65a3-cb40" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="Shadowhawk Gunship" id="3d47-502d-0a39-5da4" hidden="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink name="Vehicle" id="0459-79ec-798d-a809" hidden="false" primary="true" targetId="dbd4-63-af05-998"/>
+        <categoryLink name="Titanic" id="dfd4-d727-cea3-e522" hidden="false" primary="false" targetId="5929-ad51-d006-e008"/>
+        <categoryLink name="Transport" id="512f-35f5-f52d-c4b7" hidden="false" primary="false" targetId="75e8-57c4-40e3-1817"/>
+        <categoryLink name="Smoke" id="2a0b-c6c5-bb73-bd02" hidden="false" primary="false" targetId="6df-937-16bc-8c1a"/>
+        <categoryLink name="Imperium" id="9171-8228-6272-7c10" hidden="false" primary="false" targetId="aff3-d6a3-2a95-9dc"/>
+        <categoryLink name="Fly" id="f40f-35ca-f308-510a" hidden="false" primary="false" targetId="c619-2086-bbcf-69c9"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="61de-f3df-a7c5-43d4" field="selections" includeChildSelections="true" scope="force" shared="true" type="max" value="3"/>
+        <constraint id="054d-101e-9782-3896" field="716d-91b7-d55a-1022" includeChildSelections="true" scope="self" shared="true" type="max" value="0"/>
+        <constraint id="0207-b6a8-58f9-08af" field="716d-91b7-d55a-1022" includeChildSelections="true" scope="self" shared="true" type="min" value="0"/>
+        <constraint id="765b-1937-4b71-c606" childId="any" field="f759-1bc4-cb3a-f0d2" includeChildForces="false" includeChildSelections="true" message="An Attached Unit can only take 1 Enhancement." scope="root-entry" shared="true" traverseAssociationGroup="true" type="max" value="1"/>
+        <constraint id="7c03-30db-8d87-3617" field="75bb-ded1-c86d-bdf0" includeChildSelections="false" scope="self" shared="true" type="max" value="3"/>
+      </constraints>
+      <costs>
+        <cost name="Detachment Points" typeId="82ae-1066-5107-6ae0" value="0"/>
+        <cost name="Enhancements" typeId="f759-1bc4-cb3a-f0d2" value="0"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="650"/>
+        <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Army Rules" id="8f19-5c85-fae5-2536" hidden="false" import="true" targetId="601d-9bf4-0d26-7309" type="selectionEntryGroup"/>
+        <entryLink name="Crusade" id="eba1-b6af-abc6-efc3" hidden="false" import="true" targetId="b1ea-db2f-d6eb-b7b6" type="selectionEntryGroup"/>
+        <entryLink name="Enhancements - Upgrades" id="5e68-e5d1-c9a8-2867" hidden="false" import="true" targetId="6bec-42ce-b5bc-47c6" type="selectionEntryGroup"/>
+        <entryLink name="Enhancements - Upgrades" id="be73-a517-99f9-9389" hidden="false" import="true" targetId="6bec-42ce-b5bc-47c6" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Aerial Assault" id="87bc-8b39-a950-6966" hidden="false" targetId="b866-3c97-5072-23ee" type="profile"/>
+        <infoLink name="Damaged 10" id="9a98-796b-f072-fa3e" hidden="false" targetId="47ec-9252-0f13-9dc4" type="profile"/>
+        <infoLink name="Deadly Demise D6+2" id="e13f-1f63-a9d1-0571" hidden="false" targetId="99dd-630b-fa7a-e64c" type="profile"/>
+        <infoLink name="Thunderhawk Cluster Bombs" id="5649-b006-1128-45b6" hidden="false" targetId="6850-83e8-da91-9f31" type="profile"/>
+        <infoLink name="Transport" id="67ad-0b51-601e-5503" hidden="false" targetId="b8a7-c187-b728-61af" type="profile"/>
+        <infoLink name="Hover" id="b01b-2964-a5fa-3ae3" hidden="false" targetId="eec5-5f54-9c03-c305" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry name="Thunderhawk Gunship" id="8ed4-b5f5-14ed-9b2c" defaultAmount="1" hidden="false" import="true" type="model">
+          <constraints>
+            <constraint id="d9fc-4338-bc34-9714" field="selections" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="66d6-f67b-13cb-8bc8" field="selections" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <entryLinks>
+            <entryLink name="Lascannon" id="e255-ce88-f4ee-7299" hidden="false" import="true" targetId="cbe8-cf4d-b820-cc05" type="selectionEntry">
+              <constraints>
+                <constraint id="e389-3f3c-e3af-a236" field="selections" scope="parent" shared="true" type="min" value="2"/>
+                <constraint id="49d1-2db5-f675-2dba" field="selections" scope="parent" shared="true" type="max" value="2"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+              </costs>
+            </entryLink>
+            <entryLink name="Hellstrike Launcher" id="5ef6-6609-d45d-11bd" hidden="false" import="true" targetId="3e93-55ba-07cb-c7b7" type="selectionEntry">
+              <constraints>
+                <constraint id="9914-0499-a379-4dfa" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="0942-3749-abc4-cf7d" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Twin Heavy Bolter" id="68e2-54a0-b5b8-a95d" hidden="false" import="true" targetId="fd8b-d9d6-96b8-04ee" type="selectionEntry">
+              <constraints>
+                <constraint id="fdbe-d348-4bb6-d5e3" field="selections" scope="parent" shared="true" type="min" value="4"/>
+                <constraint id="1962-371b-16c9-e107" field="selections" scope="parent" shared="true" type="max" value="4"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Stealth Field" id="d6bc-ee6f-20ae-9980" hidden="false" import="true" targetId="fa1b-2598-6868-69ff" type="selectionEntry"/>
+          </entryLinks>
+          <infoLinks>
+            <infoLink name="Thunderhawk Gunship" id="93d3-8bd7-d1bb-db6a" hidden="false" targetId="4299-cbc8-98ac-af95" type="profile"/>
+            <infoLink name="Armored Hull" id="7606-8781-7ba4-8eb4" hidden="false" targetId="aac0-237c-d879-2ca2" type="profile"/>
+          </infoLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Thunderhawk Heavy Cannon" id="b62a-2f3e-95c9-1b1e" hidden="false">
+              <constraints>
+                <constraint id="8a60-4013-7891-d707" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="88f2-bd14-9f84-6782" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <entryLinks>
+                <entryLink name="Thunderhawk Heavy Cannon" id="f642-ec1c-a221-57f2" hidden="false" import="true" targetId="770f-e570-cbb6-6aee" type="selectionEntry"/>
+                <entryLink name="Turbo-Laser Destructor" id="5a12-bae5-abea-a5de" hidden="false" import="true" targetId="41c3-d331-b2e5-3aa5" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Centurion Pistol Options" id="feb7-e422-28dd-0c3e" defaultSelectionEntryId="ede4-89d5-f5f2-11f3" hidden="false">
+      <comment>Shadow Warden</comment>
+      <constraints>
+        <constraint id="3763-a169-355d-f43e" field="selections" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
+      <entryLinks>
+        <entryLink name="Bolt Pistol" id="2788-251c-78a0-15ef" hidden="false" import="true" targetId="d25f-01b5-518e-a374" type="selectionEntry">
+          <entryLinks>
+            <entryLink name="Centurion Equipment Upgrade - Weapons" id="2544-58b3-56e8-8093" hidden="false" import="true" targetId="406a-0cfd-71c2-3605" type="selectionEntryGroup"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink name="Hand Flamer" id="3e35-86b7-87af-b495" hidden="false" import="true" targetId="e0ea-8ed0-fd6a-2efe" type="selectionEntry">
+          <entryLinks>
+            <entryLink name="Centurion Equipment Upgrade - Weapons" id="c8c4-00c2-ee40-8775" hidden="false" import="true" targetId="406a-0cfd-71c2-3605" type="selectionEntryGroup"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink name="Plasma Pistol" id="0bcf-6064-cf5c-03ad" hidden="false" import="true" targetId="7a5d-630d-e8e1-4c9f" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="5"/>
+          </costs>
+          <entryLinks>
+            <entryLink name="Centurion Equipment Upgrade - Weapons" id="21f7-9333-cc3e-23fc" hidden="false" import="true" targetId="406a-0cfd-71c2-3605" type="selectionEntryGroup"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink name="Volkite Serpenta" id="c933-060f-bbca-e1e6" hidden="false" import="true" targetId="3034-fd56-f9f2-2eae" type="selectionEntry">
+          <entryLinks>
+            <entryLink name="Centurion Equipment Upgrade - Weapons" id="bbf4-ff7f-a509-bd56" hidden="false" import="true" targetId="406a-0cfd-71c2-3605" type="selectionEntryGroup"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink name="Archeotech Pistol" id="1d7d-5aad-e953-df8b" hidden="false" import="true" targetId="42a1-5e75-adeb-af55" type="selectionEntry">
+          <entryLinks>
+            <entryLink name="Centurion Equipment Upgrade - Weapons" id="cbff-be12-f4f9-0f5a" hidden="false" import="true" targetId="406a-0cfd-71c2-3605" type="selectionEntryGroup"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink name="Boarding Shield" id="b833-ba6d-d607-abe8" hidden="false" import="true" targetId="ac72-bf25-b402-adbd" type="selectionEntry"/>
+      </entryLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier field="hidden" type="set" value="true">
+              <conditions>
+                <condition childId="8d12-1fa0-6e04-d65f" childName="Centurion Two Handed Melee Options" field="selections" scope="parent" shared="true" type="atLeast" value="1"/>
+              </conditions>
+            </modifier>
+            <modifier field="hidden" type="set" value="true">
+              <conditions>
+                <condition childId="740a-892c-8958-defa" childName="Terminator" field="selections" scope="parent" shared="true" type="atLeast" value="1"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+</catalogue>
