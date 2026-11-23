@@ -8075,7 +8075,7 @@ Models in this unit must be within 9” Horizontally, and 5” Vertically of eve
       <modifiers>
         <modifier field="51b2-306e-1021-d207" type="increment" value="30">
           <conditions>
-            <condition id="9f01-6ccc-3d45-a7db" childId="8972-8513-6275-5ea3" childName="Scout Legionary" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="2"/>
+            <condition id="9f01-6ccc-3d45-a7db" childId="8972-8513-6275-5ea3" childName="Scout Neophyte" field="selections" includeChildSelections="false" scope="parent" shared="true" type="atLeast" value="2"/>
           </conditions>
         </modifier>
         <modifier field="51b2-306e-1021-d207" type="increment" value="50">
