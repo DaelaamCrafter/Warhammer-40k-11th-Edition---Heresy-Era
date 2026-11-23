@@ -779,7 +779,7 @@
             <constraint id="c3b7-1174-a36f-df16-max" field="selections" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry name="Mor Deythan Shade" id="c07a-7abd-01a4-64d2" hidden="false" import="true" type="upgrade">
+            <selectionEntry name="Mor Deythan Shade" id="c07a-7abd-01a4-64d2" hidden="false" import="true" type="model">
               <entryLinks>
                 <entryLink name="MK VI &quot;Corvus&quot; Power Armor" id="373e-d89b-ef9b-8969" hidden="false" import="true" targetId="3771-1f60-e90f-f946" type="selectionEntry">
                   <constraints>

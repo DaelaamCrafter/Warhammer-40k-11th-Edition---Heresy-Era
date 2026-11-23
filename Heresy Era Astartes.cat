@@ -16112,7 +16112,11 @@ Models in this unit must be within 9” Horizontally, and 5” Vertically of eve
             <cost name="pts" typeId="51b2-306e-1021-d207" value="15"/>
           </costs>
         </entryLink>
-        <entryLink name="Corvid Jump Pack" id="5aa5-b329-2f57-a7ec" hidden="false" import="true" targetId="8493-a704-64a9-62f5" type="selectionEntry"/>
+        <entryLink name="Corvid Jump Pack" id="5aa5-b329-2f57-a7ec" hidden="false" import="true" targetId="8493-a704-64a9-62f5" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="20"/>
+          </costs>
+        </entryLink>
       </entryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
